@@ -6,7 +6,7 @@ from email.message import EmailMessage
 from datetime import time,timedelta,datetime
 import sys
 
-
+print("test")
 class EmailHandler():
     """
     This class handles the sending of email messages, including storing the login information
