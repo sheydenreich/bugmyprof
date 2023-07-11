@@ -17,6 +17,7 @@ class EmailHandler():
             self.password = getpass()
         else:
             self.password = password
+            print("Please do not store your password in clear-text in your .py file!")
         self.username = email_username
         self.domain = email_domain
         self.verbose = verbose
